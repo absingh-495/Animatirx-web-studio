@@ -20,13 +20,14 @@ html,body{
   /* background-color: burlywood; */
 }
 
-                      /* loader */
+/* loader */
 
 .loader{
   width: 100%;
   height: 100vh;
   position: absolute ;
   background-color:  rgb( 250,  195,  8);
+  animation: pulse 3s;
 }
 
 .zoom{
@@ -51,6 +52,84 @@ html,body{
   font-size: 5vw;
   font-family: chaney;
   color: #fff;
-  
+}
 
+.loading{
+  position: relative;
+  left: 50%;
+  width: 50%;
+  bottom: -65%;
+  height: 10px;
+  transform: translate(-50%,-50%)rotate(-7deg);
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.loading::after{
+  content: "";
+  position: absolute ;
+  bottom: 10%;
+  height: 100%;
+  border-radius: 4px;
+  animation: load 3s;
+}
+
+/* loading bar */
+
+@keyframes load{
+  0%{
+    width: 0;
+    background-color: #a28089;
+  }
+
+  25%{
+    width: 25%;
+    background-color: #a02deb;
+  }
+
+  50%{
+    width: 50%;
+    background-color: #d0bdf4;
+  }
+
+  75%{
+    width: 75%;
+    background-color:  #d2d2d2;
+  }
+
+  100%{
+    width: 100%;
+    background-color: rgb( 250,  195,  8) ;
+  }
+}
+
+/* loading bg change */
+
+@keyframes  pulse{
+  0%{
+    /* width: 0; */
+    background-color: #a28089;
+  }
+
+  25%{
+    /* width: 25%; */
+    background-color: #c276f5;
+  }
+
+  50%{
+    /* width: 50%; */
+    background-color: #d0bdf4;
+  }
+
+  75%{
+    /* width: 75%; */
+    background-color:  #d2d2d2;
+  }
+
+  100%{
+    /* width: 100%; */
+    background-color: rgb( 250,  195,  8) ;
+  }
 }
