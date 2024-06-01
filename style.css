@@ -191,7 +191,7 @@ html,body{
   animation: letter 1.9s ease-in-out alternate infinite;
 }
 
-#kothik-k2{
+#kothik-o{
   position: absolute;
   width: 7vw;
   top: 25%;
@@ -200,13 +200,47 @@ html,body{
   animation: letter 1.8s ease-in-out alternate infinite;
 }
 
-#kothik-k2{
+#kothik-t{
+  position: absolute;
+  width: 10vw;
+  top: 38%;
+  left: 54%;
+  animation: letter 1.9s ease-in-out alternate infinite;
+}
+
+#kothik-h{
   position: absolute;
   width: 7vw;
-  top: 25%;
-  left: 54%;
-  z-index: 2;
+  top: 50%;
+  left: 53%;
   animation: letter 1.8s ease-in-out alternate infinite;
+}
+
+#kothik-i{
+  position: absolute;
+  width: 15vw;
+  top: 44%;
+  left: 38%;
+  z-index: 9;
+  animation: letter 1.8s ease-in-out alternate infinite;
+}
+
+#explore{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 75.6%;
+  width: 7vw;
+  height: 2vw;
+  color: #ffffff;
+  background: rgba( 255,  255,  255,  0.45);
+  box-shadow: 0 8px 32px 0 rgba( 299,  116, 45,  0.37);
+  backdrop-filter: (blur)4px;
+  border-radius: 10px;
+  font-size: 0.5vw;
+  cursor: pointer;
+  font-family: product sans;
 }
 
 @keyframes updown{
