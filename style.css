@@ -133,3 +133,105 @@ html,body{
     background-color: rgb( 250,  195,  8) ;
   }
 }
+
+/* After loading section */
+
+.svg{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/back1.jpg);
+  background-size: cover;
+  background-position: bottom;
+   opacity: 1; /* by default it's opacity is 0 after click then the value will be 1(visible) */
+  overflow: hidden;
+  transition: all cubic-bezier(0.19,1,0.22,1) 1.5s;
+  z-index: 99;
+}
+
+.dotted{
+  width: 130%;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/back.png);
+  background-size:  cover;
+  background-position: center;
+  animation: dotte 8s ease-in-out alternate infinite;
+  overflow: hidden;
+}
+
+.dotted > .donut{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 12vw;
+  animation: updown 2s ease-in-out alternate infinite;
+  opacity: 0;
+}
+
+#kothik-k{
+  position: absolute;
+  width: 9vw;
+  top: 25%;
+  left: 39%;
+  animation: letter 1.9s ease-in-out alternate infinite;
+}
+
+#kothik-k2{
+  position: absolute;
+  width: 5vw;
+  top: 43%;
+  left: 42%;
+  animation: letter 1.9s ease-in-out alternate infinite;
+}
+
+#kothik-k2{
+  position: absolute;
+  width: 7vw;
+  top: 25%;
+  left: 54%;
+  z-index: 2;
+  animation: letter 1.8s ease-in-out alternate infinite;
+}
+
+#kothik-k2{
+  position: absolute;
+  width: 7vw;
+  top: 25%;
+  left: 54%;
+  z-index: 2;
+  animation: letter 1.8s ease-in-out alternate infinite;
+}
+
+@keyframes updown{
+  from{
+    margin-top: -1vw;
+  }
+  
+  to{
+    margin-top: 1vw;
+  }
+}
+
+@keyframes letter {
+  from{
+    margin-top: 0vw;
+  }
+  to{
+    margin-top: 1vw;
+  }
+}
+
+@keyframes dotte{
+  from{
+    margin-top: -15%;
+    margin-left: -15%;
+  }
+}
+
