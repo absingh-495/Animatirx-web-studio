@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Chana;
+  font-family: Chaney;
   src: url(/Fonts/chaney-ultraextended-webfont.ttf);
 }
 
@@ -30,27 +30,27 @@ z-index: 9;
 
 .zoom {
 position: absolute;
-top: 45%;
+top: 35%;/*45%*/
 left: 50%;
-font-size: 13vw;
+font-size: 10vw;
 -webkit-text-stroke-width: 0.09vh;
 -webkit-text-fill-color: transparent;
 -webkit-text-stroke-color: #fff;
 outline: none;
 transform: rotate(-7deg) translate(-50%, -50%);
 opacity: 0.89;
-font-family: Chana ;
+font-family: Chaney ;
 /* font-family: ProductSans; */
 font-weight: 200;
 }
 
-.loader h1 {
+.scramble{
 position: absolute;
-top: 50%;
+top: 40%; /*50%*/
 left: 50%;
 transform: rotate(-7deg) translate(-50%, -50%);
 /* outline: 1px solid #fff; */
-font-family: Chana;
+font-family: Chaney;
 font-size: 5vw;
 padding: 2vw;
 /* transform: rotate(-5deg) ; */
