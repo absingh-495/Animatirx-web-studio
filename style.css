@@ -175,6 +175,8 @@ html,body{
   opacity: 0;
 }
 
+/* Floating alphabets */
+
 #kothik-k{
   position: absolute;
   width: 9vw;
@@ -225,6 +227,8 @@ html,body{
   animation: letter 1.8s ease-in-out alternate infinite;
 }
 
+/* Explore btn */
+
 #explore{
   position: absolute;
   display: flex;
@@ -240,7 +244,12 @@ html,body{
   border-radius: 10px;
   font-size: 0.5vw;
   cursor: pointer;
-  font-family: product sans;
+  /* font-family: product sans; */
+}
+
+#explore a h1{
+  color: #ffffff;
+  
 }
 
 @keyframes updown{
