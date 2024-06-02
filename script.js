@@ -155,25 +155,25 @@ document.querySelectorAll("#explore").forEach(function (elem) {
           opacity: 0,
         },
         "sw"
-//       )
-//       .to("#donut", {
-//         width: "80vw",
-//         top: "-10%",
-//         rotate: "360deg",
-//         ease: "ease.out",
-//         duration: 1,
-//         opacity: 0,
-//         delay: "-1",
-//       })
-//       .to(
-//         "#dotted",
-//         {
-//           opacity: 0,
-//         },
-//         "sw"
-//       )
-//       .to(".svgwaala", {
-//         opacity: 0,
-//       });
-//   });
-// });
+      )
+      .to("#donut", {
+        width: "80vw",
+        top: "-10%",
+        rotate: "360deg",
+        ease: "ease.out",
+        duration: 1,
+        opacity: 0,
+        delay: "-1",
+      })
+      .to(
+        "#dotted",
+        {
+          opacity: 0,
+        },
+        "sw"
+      )
+      .to(".svgwaala", {
+        opacity: 0,
+      });
+  });
+});
