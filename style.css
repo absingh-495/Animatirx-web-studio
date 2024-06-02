@@ -177,6 +177,8 @@ animation: updown 2s ease-in-out alternate infinite;
 opacity: 0;
 }
 
+/* floating alphabet */
+
 #kothik-k {
 position: absolute;
 width: 9vw;
@@ -222,6 +224,7 @@ z-index: 9;
 animation: letter 1.9s ease-in-out alternate infinite;
 }
 
+/* Button */
 
 #explore {
 position: absolute;
