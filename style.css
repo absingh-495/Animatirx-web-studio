@@ -247,4 +247,33 @@ font-family: product sans;
 
 /* keyframes */
 
- 
+#explore a h1 {
+color: #fff;
+}
+
+@keyframes updown {
+from {
+  margin-top: -1vw;
+}
+
+to {
+  margin-top: 1vw;
+}
+}
+
+@keyframes letter {
+from {
+  margin-top: 0vw;
+}
+
+to {
+  margin-top: 1vw;
+}
+}
+
+@keyframes dotte {
+from {
+  margin-top: -15%;
+  margin-left: -15%;
+}
+}
