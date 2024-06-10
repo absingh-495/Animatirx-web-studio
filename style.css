@@ -271,4 +271,9 @@ to {
 }
 }
 
- 
+@keyframes dotte {
+from {
+  margin-top: -15%;
+  margin-left: -15%;
+}
+}
