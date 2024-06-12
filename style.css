@@ -116,28 +116,7 @@ overflow: hidden;
 }
 }
 
-@keyframes pulse {
-0% {
-  background: #a28089;
-}
-
-25% {
-  background: #a0d2eb;
-}
-
-50% {
-  background: #d0bdf4;
-}
-
-75% {
-  background: #d2d2d2;
-}
-
-100% {
-  background: rgb(250, 195, 8);
-}
-}
-
+ 
 .svgwaala {
 position: relative;
 width: 100%;
