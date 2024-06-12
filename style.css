@@ -186,6 +186,7 @@ top: 25%;
 left: 39%;
 animation: letter 1.9s ease-in-out alternate infinite;
 }
+
 #kothik-k2 {
 position: absolute;
 width: 5vw;
@@ -193,6 +194,7 @@ top: 43%;
 left: 42%;
 animation: letter 1.9s ease-in-out alternate infinite;
 }
+
 #kothik-o {
 position: absolute;
 width: 7vw;
@@ -201,6 +203,7 @@ left: 54%;
 z-index: 2;
 animation: letter 1.8s ease-in-out alternate infinite;
 }
+
 #kothik-t {
 position: absolute;
 width: 10vw;
@@ -208,6 +211,7 @@ top: 38%;
 left: 54%;
 animation: letter 1.9s ease-in-out alternate infinite;
 }
+
 #kothik-h {
 position: absolute;
 width: 7vw;
@@ -215,6 +219,7 @@ top: 50%;
 left: 53%;
 animation: letter 1.8s ease-in-out alternate infinite;
 }
+
 #kothik-i {
 position: absolute;
 width: 15vw;
