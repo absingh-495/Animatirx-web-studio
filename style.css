@@ -154,18 +154,7 @@ transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
 z-index: 99;
 }
 
-#dotted {
-width: 130%;
-height: 130vh;
-display: flex;
-align-items: center;
-justify-content: center;
-background-image: url(/Images/back.png);
-background-size: cover;
-background-position: center;
-animation: dotte 8s ease-in-out alternate infinite;
-/* overflow: hidden; */
-}
+ 
 
 #dotted > img:nth-child(1) {
 position: absolute;
