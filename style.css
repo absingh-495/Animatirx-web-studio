@@ -622,12 +622,14 @@ i {
   height: 100vh;
   /* background-color: #ff6969; */
 }
+
 .left-upar-menu h1 {
   font-family: hotel2;
   font-size: 3vw;
   letter-spacing: 0.1vw;
   color: #fff;
 }
+
 .right-upar-menu {
   display: flex;
   align-items: center;
@@ -656,6 +658,7 @@ i {
   background-position: center;
   background-size: cover;
 }
+
 .menu-img-two {
   width: 100%;
   height: 25%;
@@ -663,6 +666,7 @@ i {
   background-position: center;
   background-size: cover;
 }
+
 .menu-img-three {
   width: 100%;
   height: 25%;
