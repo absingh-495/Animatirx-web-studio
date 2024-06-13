@@ -524,7 +524,7 @@ i {
 #circle {
   position: absolute;
   top: 31vh;
-  left: -3.7vw;
+  left: -2.1vw; /* left: -3.7vw; */
   position: relative;
   width: 52vw;
   z-index: 99;
