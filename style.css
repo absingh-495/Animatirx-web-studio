@@ -283,7 +283,7 @@ from {
 }
 }
 
-/* Video3---------------- */
+/* again.html---------------- */
 
 #main-again {
   width: 100%;
@@ -349,6 +349,7 @@ from {
   color: #fff;
   display: none;
   z-index: 9999 !important;
+  background-color:red;
 }
 
 #rght-nav a {
@@ -401,6 +402,7 @@ from {
 
 i {
   color: #333;
+  cursor: pointer;
 }
 .ri-shopping-bag-line {
   color: rgb(180, 180, 180);
@@ -686,4 +688,5 @@ i {
 .upar-menu .ri-close-fill {
   top: 4%;
   left: 36.5%;
+  /* background-color: green; */
 }
