@@ -683,4 +683,15 @@ i {
   background-size: cover;
 }
 
- 
+.ri-close-fill {
+  position: absolute;
+  color: #fff;
+  display: none;
+  z-index: 9999999999999999999 !important;
+}
+
+.upar-menu .ri-close-fill {
+  top: 4%;
+  left: 36.5%;
+  /* background-color: green; */
+}
