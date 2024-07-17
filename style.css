@@ -489,19 +489,7 @@ i {
   font-family: Bellefair;
 }
 
-.mandit {
-  position: absolute;
-  margin-top: 5vw;
-  margin-left: 5vw;
-  width: 12vw;
-  height: 30vh;
-  border-radius: 50% 50% 0% 0%;
-  background-image: url(https://images.unsplash.com/photo-1505577058444-a3dab90d4253?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1870&q=80);
-  background-size: cover;
-  background-position: center;
-  border: 1vw solid #fff0e4;
-  z-index: 2;
-}
+ 
 
 .mandit-2 {
   position: absolute;
